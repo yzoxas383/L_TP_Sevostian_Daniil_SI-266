@@ -1,0 +1,5 @@
+Comandă: python arsenal/forensics/decode.py --mod a1
+Cod de ieșire: 0
+
+Octeți: b'Salut' Primul octet: 83
+HEX: 53616c7574 Refăcut: b'Salut'

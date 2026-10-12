@@ -1,0 +1,8 @@
+Comandă: python arsenal/forensics/decode.py demo/mesaj.txt --fisier
+Cod de ieșire: 0
+
+Stratul 1: url -> 526b7842523374745a584e68616c396b5a573176626e4e30636d463061585a39
+Stratul 2: hex -> RkxBR3ttZXNhal9kZW1vbnN0cmF0aXZ9
+Stratul 3: base64 -> FLAG{mesaj_demonstrativ}
+Rezultat: FLAG{mesaj_demonstrativ}
+Format: utf-8

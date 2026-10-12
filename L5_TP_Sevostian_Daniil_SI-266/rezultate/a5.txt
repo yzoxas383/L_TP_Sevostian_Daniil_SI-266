@@ -1,0 +1,6 @@
+Comandă: python arsenal/forensics/decode.py demo/xor.bin --mod xor --fisa demo/fisa_xor.json
+Cod de ieșire: 0
+
+Cheie probabilă: 73
+Mesaj probabil: Acesta este un mesaj demonstrativ pentru laborator.
+Rezultatul este estimat după frecvența literelor.

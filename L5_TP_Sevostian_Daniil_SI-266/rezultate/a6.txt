@@ -1,0 +1,6 @@
+Comandă: python arsenal/forensics/decode.py demo/hashuri.txt --fisier --mod hash --wordlist demo/wordlist.txt --fisa demo/fisa_hash.json
+Cod de ieșire: 0
+
+md5 Parolă: student123
+sha1 Parolă: student123
+sha256 Parolă: student123

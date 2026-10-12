@@ -1,0 +1,33 @@
+Comandă: python -m unittest discover -s teste -v
+Cod de ieșire: 0
+
+Au fost generate datele demonstrative în demo/.
+test_base64 (test_decode.TestDecode.test_base64) ... ok
+test_citibil (test_decode.TestDecode.test_citibil) ... ok
+test_hash (test_decode.TestDecode.test_hash) ... ok
+test_hex_url (test_decode.TestDecode.test_hex_url) ... ok
+test_intrare_ambigua (test_decode.TestDecode.test_intrare_ambigua) ... ok
+test_recunoastere (test_decode.TestDecode.test_recunoastere) ... ok
+test_straturi (test_decode.TestDecode.test_straturi) ... ok
+test_xor (test_decode.TestDecode.test_xor) ... ok
+test_lsb (test_forensics_stego.TestForensicsStego.test_lsb) ... Laborator_5\stego.py:14: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixeli = list(img.getdata())
+Laborator_5\stego.py:33: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for pixel in img.getdata():
+Laborator_5\teste\test_forensics_stego.py:44: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for p, q in zip(a.getdata(), b.getdata()):
+ok
+test_semnaturi_strings_zip_gps (test_forensics_stego.TestForensicsStego.test_semnaturi_strings_zip_gps) ... ok
+test_bytes_si_codari_binare (test_regresii.TestRegresii.test_bytes_si_codari_binare) ... ok
+test_cli_fisier_binar (test_regresii.TestRegresii.test_cli_fisier_binar) ... ok
+test_hash_spatii_si_utf8 (test_regresii.TestRegresii.test_hash_spatii_si_utf8) ... ok
+test_spatii_pastrate (test_regresii.TestRegresii.test_spatii_pastrate) ... ok
+test_zip_crc_pastreaza_destinatia (test_regresii.TestRegresii.test_zip_crc_pastreaza_destinatia) ... ok
+test_zip_eroare_pastreaza_destinatia (test_regresii.TestRegresii.test_zip_eroare_pastreaza_destinatia) ... ok
+test_zip_nu_suprascrie_sursa (test_regresii.TestRegresii.test_zip_nu_suprascrie_sursa) ... ok
+test_zip_semnatura_falsa (test_regresii.TestRegresii.test_zip_semnatura_falsa) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.541s
+
+OK

@@ -1,0 +1,4 @@
+Comandă: python demo/pregateste_demo.py
+Cod de ieșire: 0
+
+Au fost generate datele demonstrative în demo/.

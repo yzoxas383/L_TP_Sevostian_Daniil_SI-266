@@ -1,0 +1,34 @@
+Comandă: python forensics.py --probe demo
+Cod de ieșire: 0
+
+B1: Tipurile reale
+ascuns.png -> png
+fisa_hash.json -> necunoscut: 7b0d0a2020227374
+fisa_salut.json -> necunoscut: 7b0d0a2020227374
+fisa_xor.json -> necunoscut: 7b0d0a2020227374
+foto.jpg -> jpeg
+hashuri.txt -> necunoscut: 6164366132383034
+mesaj.txt -> necunoscut: 2533352533322533
+pregateste_demo.py -> necunoscut: 2222224461746520
+semnatura.pdf -> pdf
+wordlist.txt -> necunoscut: 73616c75740d0a73
+xor.bin -> necunoscut: 082a2c3a3d28692c
+B2: Șiruri din ascuns.png
+IHDR
+IDATx
+IEND
+$tK]Ba
+indiciu_demo.txtFLAG{arhiva_demonstrativa}
+$tK]Ba
+indiciu_demo.txtPK
+B3: EXIF și GPS
+ImageDescription = Imagine demonstrativa pentru laborator
+Make = Demo
+GPS = {'GPSLatitudeRef': 'N', 'GPSLatitude': '(47.0, 1.0, 30.0)', 'GPSLongitudeRef': 'E', 'GPSLongitude': '(28.0, 50.0, 15.0)'}
+Latitudine = 47.025
+Longitudine = 28.8375
+B4: Arhiva ascunsă
+Arhiva extrasă de la octetul 208
+Fișier: indiciu_demo.txt
+FLAG{arhiva_demonstrativa}
+

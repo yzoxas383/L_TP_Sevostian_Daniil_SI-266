@@ -1,0 +1,6 @@
+Comandă: python arsenal/forensics/decode.py U2FsdXQ= --fisa demo/fisa_salut.json
+Cod de ieșire: 0
+
+Stratul 1: base64 -> Salut
+Rezultat: Salut
+Format: utf-8

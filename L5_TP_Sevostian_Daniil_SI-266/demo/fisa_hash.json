@@ -1,0 +1,20 @@
+{
+  "strat": "hash",
+  "rezultat": [
+    {
+      "hash": "ad6a280417a0f533d8b670c61667e1a0",
+      "algoritm": "md5",
+      "parola": "student123"
+    },
+    {
+      "hash": "21a2f903885172b4503e6f5eaf6b78880f4712cc",
+      "algoritm": "sha1",
+      "parola": "student123"
+    },
+    {
+      "hash": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+      "algoritm": "sha256",
+      "parola": "student123"
+    }
+  ]
+}

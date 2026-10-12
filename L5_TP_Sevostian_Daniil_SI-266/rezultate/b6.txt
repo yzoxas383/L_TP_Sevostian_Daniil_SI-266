@@ -1,0 +1,6 @@
+Comandă: python stego.py dezvaluie stego.png
+Cod de ieșire: 0
+
+Mesaj extras: FLAG{ascuns_in_pixeli}
+Laborator_5\stego.py:33: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for pixel in img.getdata():

@@ -1,0 +1,9 @@
+Comandă: python stego.py ascunde demo/foto.jpg
+Cod de ieșire: 0
+
+Imagine salvată: stego.png
+Verificare reușită: FLAG{ascuns_in_pixeli}
+Laborator_5\stego.py:14: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixeli = list(img.getdata())
+Laborator_5\stego.py:33: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for pixel in img.getdata():

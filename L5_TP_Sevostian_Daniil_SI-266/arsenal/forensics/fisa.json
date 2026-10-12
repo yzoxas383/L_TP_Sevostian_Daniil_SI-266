@@ -1,0 +1,22 @@
+{
+  "strat": "url",
+  "rezultat": "FLAG{mesaj_demonstrativ}",
+  "format": "utf-8",
+  "pasi": [
+    {
+      "strat": "url",
+      "rezultat": "526b7842523374745a584e68616c396b5a573176626e4e30636d463061585a39",
+      "format": "utf-8"
+    },
+    {
+      "strat": "hex",
+      "rezultat": "RkxBR3ttZXNhal9kZW1vbnN0cmF0aXZ9",
+      "format": "utf-8"
+    },
+    {
+      "strat": "base64",
+      "rezultat": "FLAG{mesaj_demonstrativ}",
+      "format": "utf-8"
+    }
+  ]
+}
